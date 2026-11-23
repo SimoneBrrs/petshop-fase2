@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Estilos Personalizados - PetShop Amigo Fiel (Fase 2)
+   Autora: Simone Barros
+   ========================================================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.carousel-item img {
+    max-height: 380px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+a:focus, 
+button:focus, 
+input:focus {
+    outline: 3px solid #ffc107 !important;
+    outline-offset: 2px;
+}
+
+fieldset legend {
+    font-weight: 600;
+    color: #0d6efd;
+}
